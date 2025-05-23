@@ -5,3 +5,4 @@ scikit-learn
 tensorboard
 matplotlib
 streamlit
+python_version = "3.10"
