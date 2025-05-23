@@ -1,0 +1,31 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and artifacts
+*.csv
+*.h5
+*.pkl
+*.joblib
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
