@@ -10,8 +10,6 @@ venv/
 .ipynb_checkpoints/
 
 # Data and artifacts
-
-*.h5
 *.joblib
 
 # Logs

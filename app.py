@@ -6,7 +6,13 @@ from sklearn.preprocessing import StandardScaler, OrdinalEncoder, OneHotEncoder
 import pickle
 
 # Load trained model
-model = tf.keras.models.load_model('heart_model.h5')
+import os
+if not os.path.exists('heart_model.h5'):
+    st.error("Model file not found!")
+else:
+    st.success(f"Model file found ({os.path.getsize('heart_model.h5')} bytes)")
+
+model = tf.keras.models.load_model('heart_model.h5', safe_mode=False)
 
 # Load scaler and preprocessor
 with open('scaler.pkl', 'rb') as file:
