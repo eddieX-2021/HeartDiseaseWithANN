@@ -2,6 +2,8 @@
 
 This application predicts the risk of heart disease based on user inputs. It uses data preprocessing, scaling, and an Artificial Neural Network (ANN) model to output the probability of heart disease. The app is served using Streamlit, allowing for a simple and interactive web interface.
 
+https://heartdiseasewithann-f3jcwzuimgntrhpc6mg2uy.streamlit.app/
+
 ## What Does This App Do?
 
 - **Data Preprocessing:**  
